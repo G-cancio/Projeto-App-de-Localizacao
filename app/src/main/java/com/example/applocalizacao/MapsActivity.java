@@ -50,7 +50,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         ucsal_markerOptions.title("UCSAL");
         ucsal_markerOptions.snippet("Campus Pituaçu");
 
-        Marker myMarker=mMap.addMarker(ucsal_markerOptions);
+        Marker myMarker = mMap.addMarker(ucsal_markerOptions);
+
+        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom
                 (new LatLng(-12.94825, -38.41334),15));

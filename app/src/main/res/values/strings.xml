@@ -7,4 +7,9 @@
 
     <string name="gps_txt">GPS</string>
     <string name="map_txt">MAP</string>
+
+    <string name="vetorial_txt">Vetorial</string>
+    <string name="satelite_txt">Satelite</string>
+    <string name="northup_txt">North Up</string>
+    <string name="courseup_txt">Course Up</string>
 </resources>
